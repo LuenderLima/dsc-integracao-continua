@@ -1,2 +1,1 @@
-# dsc-integracao-continua
-UFPB - CAMPUS IV
+# UFPB - CAMPUS IV
