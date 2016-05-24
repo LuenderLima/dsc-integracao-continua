@@ -1,4 +1,4 @@
-package br.ufpb.dsc.integracaocontinua.test;
+package br.ufpb.dsc.integracaocontinua;
 
 import static org.junit.Assert.*;
 
