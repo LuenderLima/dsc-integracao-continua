@@ -6,9 +6,10 @@ public class User {
 	private String email;
 	private String senha;
 	
-	public User(String nome, String senha) {
+	public User(String nome, String senha, String email) {
 		this.nome = nome;
 		this.senha = senha;
+		this.email = email;
 	}
 	
 	public String getNome() {

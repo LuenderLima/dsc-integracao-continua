@@ -15,13 +15,13 @@ public class UserManager {
 		users.add(user);
 	}
 	
-	public boolean validarUsuario(String nome, String senha) {
-		return pesquisarUsuario(nome).getSenha().equals(senha);
+	public boolean validarUsuario(String email, String senha) {
+		return pesquisarUsuario(email).getSenha().equals(senha);
 	}
 	
-	public User pesquisarUsuario(String nome) {
+	public User pesquisarUsuario(String email) {
 		for(User u: users) {
-			if(u.getNome().equals(nome)) {
+			if(u.getEmail().equals(email)) {
 				return u;
 			}
 		}
